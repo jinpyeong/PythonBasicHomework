@@ -17,7 +17,7 @@ print(string[13:]) #어디인가요?
 
 
 # 4
-s = '오늘 평균 기온은 {}도 입니다.
+s = '오늘 평균 기온은 {}도 입니다.'
 print(s.format(17))
 print(s.format(18))
 print(s.format(19))
