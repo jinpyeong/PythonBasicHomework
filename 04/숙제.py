@@ -38,4 +38,7 @@ else:
 
 
 # 7
-?
+num1 = input("input number1: ")
+num2 = input("input number2: ")
+num3 = input("input number3: ")
+if ...
