@@ -38,7 +38,16 @@ else:
 
 
 # 7
-num1 = input("input number1: ")
-num2 = input("input number2: ")
-num3 = input("input number3: ")
-if ...
+num1 = int(input("input number1: "))
+num2 = int(input("input number2: "))
+num3 = int(input("input number3: "))
+big = 0
+
+if num1 > num2 and num1 > num3:
+  big = num1
+elif num2 > num1 and num2 > num3:
+  big = num2
+else :
+  big = num3
+
+print(big)
