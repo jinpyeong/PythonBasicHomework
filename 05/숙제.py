@@ -31,12 +31,15 @@ while i < count:
     
 # 5
 i = 0
-result_even = 0
+result = 0
  
-while @@@:
+while i < 100:
     i = i + 1
-    if @@@:
-        result_even = result_even + i
+    if i % 2 == 1:
+      print(i)
+      result = result + i
+
+print(result)
 
 
 # 6
@@ -46,11 +49,11 @@ print('-' * 40)
 
 cm = 10
 
-while @@@:
-    mm = @@@  # mm 계산
-    m = @@@  # m 계산
-    inch = @@@  # inch 계산
-    
+while cm < 100:
+    mm = cm * 10
+    m = cm * 0.01
+    inch = cm * 0.3937
+  
     print(f'{cm}\t{mm}\t{m}\t{inch}')
             
     cm += 10
