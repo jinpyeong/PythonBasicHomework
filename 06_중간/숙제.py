@@ -84,12 +84,3 @@ True
 False
 False
 False
-      
-# 12
-      
-1
-3
-
-      
-
-      
