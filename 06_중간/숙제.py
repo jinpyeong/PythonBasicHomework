@@ -49,3 +49,43 @@ def smile(s):
     print(s + end)
 
 smile('안녕하세요')
+
+# 9
+      
+def exchange(won) :
+    dollar = won / 1300
+    return dollar
+
+print(exchange(2000))
+print(exchange(13000))
+print(exchange(1000000))
+
+won = int(input('환전할 원화 : '))
+dollar = exchange(won)
+print('당신은 ${} 를 환전했습니다.'.format(dollar))
+      
+# 10
+      
+a = True
+b = False
+      
+# 11
+      
+False
+True
+False
+True
+False
+True
+True
+True
+False
+True
+False
+False
+False
+      
+# 12
+      
+1
+3
