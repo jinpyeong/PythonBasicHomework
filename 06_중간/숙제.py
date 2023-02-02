@@ -52,10 +52,10 @@ smile('안녕하세요')
 
 # 9
       
-def exchange(won) :
+def exchange(won):
     dollar = won / 1300
     return dollar
-
+      
 print(exchange(2000))
 print(exchange(13000))
 print(exchange(1000000))
@@ -89,3 +89,5 @@ False
       
 1
 3
+
+      
