@@ -13,7 +13,7 @@ convert2 = (temperature2 * 1.8) + 32
 
 print('화씨 {}도는 섭씨 {}도'.format(temperature1, convert1))
 print('섭씨 {}도는 화씨 {}도'.format(temperature2, convert2))
-
+진평 진평 진평 
 # 3
 
 year = 2023
