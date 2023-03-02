@@ -33,3 +33,11 @@ for score in scores:
 
     total = total + score
 print(total)
+
+# 4 (O)
+price_list = [1000, 2300, 9900, 15000]
+for price in price_list:
+    sale_price = (price / 10) + price
+    print("{}원의 결제 금액은 {}원 입니다.".format(price, sale_price))
+    
+# 5 (X)
