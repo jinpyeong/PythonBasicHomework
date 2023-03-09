@@ -31,7 +31,7 @@ def print_command():
 def print_product(product):
     print('*'*50)
     for key in product.keys():
-      print('{} : {}'.format(@@@, @@@))
+        print('{} : {}'.format(key, product[key]))
     print('*'*50)
 
 product = {'메로나': 1000,
@@ -41,20 +41,20 @@ product = {'메로나': 1000,
        '월드콘': 1500}
 
 while True:
-  print_command()
-  command = input('작업을 선택하세요. ')
-  if command == '1':
-      ice_cream = input('추가할 아이스크림 : ')
-      price = input('가격 : ')
-      product["ice_cream"] = price
-  elif command == '2':
-      ice_cream = input('수정할 아이스크림 : ')
-      price = input('가격 : ')
-      product["ice_cream"] = price
-  elif command == '3':
-      ice_cream = input('삭제할 아이스크림 : ')
-      del product["ice_cream"]
-  elif command == '4':
-       print_product(product)
-  elif command == '5':
-      break
+    print_command()
+    command = input('작업을 선택하세요. ')
+    if command == '1':
+        ice_cream = input('추가할 아이스크림 : ')
+        price = input('가격 : ')
+        product[ice_cream] = price
+    elif command == '2':
+        ice_cream = input('수정할 아이스크림 : ')
+        price = int(input('가격 : '))
+        product[ice_cream] = price
+    elif command == '3':
+        ice_cream = input('삭제할 아이스크림 : ')
+        del product[ice_cream]
+    elif command == '4':
+        print_product(product)
+    elif command == '5':
+        break
