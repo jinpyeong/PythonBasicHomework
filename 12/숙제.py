@@ -47,14 +47,13 @@ class Eevee:
       self.name = name
       self.skill = skill
 
-    def get_name(self):
+    def set_name(self):
         self.name = str(input("포켓몬의 이름은? : "))
-        return self.name
   
-    def get_skill(self):
-        print("{}의 몸통박치기!".format(self.name))
+    def eevee_skill(self):
+        print("{}의 {}!".format(self.name, self.skill))
 
-        effect = random(1,6)
+        effect = random.randint(1,6)
         
         if effect == 1:
             print("효과가 굉장했다!")
@@ -67,7 +66,10 @@ class Eevee:
 
     def __str__(self):
         return '이름은 {}, HP는 700'.format(self.name)
-    
-eevee1 = Eevee('name', 'skill')
+
+
+name = str(input("포켓몬의 이름은? : "))
+eevee1 = Eevee(name, '몸통박치기')
+eevee1.eevee_skill()
 
 print(eevee1)
